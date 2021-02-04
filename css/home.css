@@ -1,0 +1,76 @@
+.section{
+    display: flex;
+    height:400px;
+    
+}
+
+.graph{
+    flex: 1;
+    background-color: beige;
+    
+}
+
+.content{
+    flex:2;
+    background-color: whitesmoke;
+    
+}
+
+.content h3{
+    color: orange;
+    font-size: 24px;
+    text-align: center;
+}
+
+.date{
+    flex:1;
+    background-color: beige;
+    text-align: center;
+    font-size: 24px;
+    color: olive;
+}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+
+.meal{
+    text-align: center;
+    
+}
+
+.meal p{
+    font-size: 25px;
+    color: palevioletred;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+}
+
+#curve_chart{
+    padding: 10px;
+}
+
+footer{
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+.weightBtn{
+    background-color: white;
+    color: black;
+    border: 2px solid rgb(175, 157, 76); /* Green */
+    border-radius: 8px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.weightBtn:hover{
+    background-color: rgb(175, 157, 76) ;
+    color: white;
+}
